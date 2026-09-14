@@ -1,0 +1,1 @@
+<span style="font-size:16pt">This demo shows you how to detect for each picture the formats that aren't supported.<br/><br/>Use the arrows below to browse through the database</span>

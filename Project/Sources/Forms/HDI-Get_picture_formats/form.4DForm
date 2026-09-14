@@ -1,0 +1,355 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onCloseBox",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 977,
+					"height": 719,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Info",
+						"Demo 1",
+						"Demo 2"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"txtWelcome": {
+					"type": "input",
+					"top": 67,
+					"left": 39,
+					"width": 937,
+					"height": 640,
+					"dataSource": "<>txtWelcome",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 184,
+					"left": 168,
+					"width": 695,
+					"height": 289,
+					"sizingX": "grow",
+					"dataSource": "[Table_1:1]Field_3:3",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "custom",
+					"events": [
+						"onAfterEdit"
+					]
+				},
+				"txtWelcomeDemo1": {
+					"type": "input",
+					"top": 67,
+					"left": 40,
+					"width": 928,
+					"height": 65,
+					"dataSource": "<>txtWelcomeDemo1",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 143,
+					"left": 548,
+					"width": 88,
+					"height": 21,
+					"text": ">",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 143,
+					"left": 369,
+					"width": 88,
+					"height": 21,
+					"text": "<",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"txtCodecDetail": {
+					"type": "input",
+					"top": 510,
+					"left": 177,
+					"width": 686,
+					"height": 182,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "txtCodecDetail",
+					"fontSize": 16,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"txtWelcomeDemo2": {
+					"type": "input",
+					"top": 65,
+					"left": 49,
+					"width": 928,
+					"height": 96,
+					"dataSource": "<>txtWelcomeDemo2",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 186,
+					"left": 39,
+					"width": 435,
+					"height": 274,
+					"dataSource": "[Table_1:1]Field_3:3",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "custom",
+					"events": [
+						"onAfterEdit"
+					]
+				},
+				"txtWelcomeDemo8": {
+					"type": "input",
+					"top": 480,
+					"left": 39,
+					"width": 379,
+					"height": 92,
+					"dataSource": "txtPictureSize",
+					"fontFamily": "System Font",
+					"fontSize": 16,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"SaveSpace_ConvertedPicture": {
+					"type": "input",
+					"top": 186,
+					"left": 508,
+					"width": 469,
+					"height": 272,
+					"dataSource": "convertedPicture",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "custom",
+					"dropping": "custom",
+					"events": [
+						"onAfterEdit"
+					]
+				},
+				"ExportFormat_Button": {
+					"type": "button",
+					"top": 631,
+					"left": 300,
+					"width": 158,
+					"height": 20,
+					"dataSource": "ExportFormat_Button",
+					"text": "Export Selected Format",
+					"focusable": false,
+					"method": "ObjectMethods/ExportFormat_Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"txtWelcomeDemo4": {
+					"type": "input",
+					"top": 493,
+					"left": 514,
+					"width": 376,
+					"height": 128,
+					"dataSource": "txtSizeAfterConvertion",
+					"fontFamily": "System Font",
+					"fontSize": 16,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 588,
+					"left": 39,
+					"width": 234,
+					"height": 133,
+					"dataSource": "lstBoxFormats",
+					"hideExtraBlankRows": true,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Colonne1",
+							"dataSource": "LstFormat",
+							"width": 110,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête1",
+								"text": "Format contained in the Picture",
+								"dataSource": "Entête1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Colonne2",
+							"dataSource": "SizeOfSubPicture",
+							"width": 124,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Entête2",
+								"text": "Size",
+								"dataSource": "Entête2",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Pied2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

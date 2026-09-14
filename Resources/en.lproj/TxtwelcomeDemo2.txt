@@ -1,0 +1,1 @@
+<span style="font-size:16pt">This demo shows you how to reduce the space taken up by pictures saved in several formats.<br/><br/>Export this picture to a single format and see how much space you saved.</span>

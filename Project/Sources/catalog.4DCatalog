@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_get_Picture_formats" uuid="8BA36EFC93BD5043ACA1F441E24E4FA5" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="A2BD9930AAB94966A5DC4A62E1DAE02D" id="1">
+		<field name="ID" uuid="1D79522E058345F1B0CD583576686906" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Field_2" uuid="B488B9BF48D649EAA341A2D63635F7D3" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Field_3" uuid="AC08F552A43A406F8FADE2BCF787D8EE" type="12" never_null="true" id="3"/>
+		<field name="Field_4" uuid="CE67A0189C6D7847998CF513457C479B" type="21" never_null="true" id="4"/>
+		<field name="Field_5" uuid="0260B9415DD94CD6B3D6B6A924309032" type="10" limiting_length="255" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="1D79522E058345F1B0CD583576686906"/>
+		<table_extra input_form="Form1" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="993C4DB50FDE499FAC57764B545D511A" type="7">
+		<field_ref uuid="1D79522E058345F1B0CD583576686906" name="ID">
+			<table_ref uuid="A2BD9930AAB94966A5DC4A62E1DAE02D" name="Table_1"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":HDI.4DD" package_name="HDI_get_Picture_formats" structure_file_name="HDI">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
