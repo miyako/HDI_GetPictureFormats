@@ -22,7 +22,7 @@ For ($i; 1; Size of array:C274($PictureCodecIDList))
 		$pictureInSignleFormat:=[Table_1:1]Field_3:3
 		CONVERT PICTURE:C1002($pictureInSignleFormat; $PictureCodecIDList{$i})
 		var $isPictureDeprecated : Integer
-		//This command is contained in the 4D Pack plugin and permits to know if the C_PICTURE variable contains a deprecated format.
+		//This command permits to know if the C_PICTURE variable contains a deprecated format.
 		$isPictureDeprecated:=_o_AP_Is_Picture_Deprecated(->$pictureInSignleFormat)
 		//if the image contains a pict format which is deprecated
 		If ($isPictureDeprecated=1)

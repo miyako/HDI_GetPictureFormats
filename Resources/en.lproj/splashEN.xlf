@@ -27,8 +27,8 @@
         <target>4D v16 and above</target>
       </trans-unit>
       <trans-unit id="Splash_TxtPlugin" resname="Splash_TxtPlugin">
-        <source>Sorry, this HDI requires that the 4D Pack plugin is installed.</source>
-        <target>Sorry, this HDI requires that the 4D Pack plugin is installed.</target>
+        <source>Sorry, this HDI requires a plugin that is not installed.</source>
+        <target>Sorry, this HDI requires a plugin that is not installed.</target>
       </trans-unit>
     </body>
   </file>
