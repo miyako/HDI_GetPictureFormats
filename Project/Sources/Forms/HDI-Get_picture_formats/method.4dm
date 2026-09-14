@@ -1,4 +1,3 @@
-//%attributes = {"invisible":true}
 var $fp; $fpTxtwelcomeDemo1; $fpTxtwelcomeDemo2 : Text
 $fp:=Localized document path:C1105("txtWelcome.txt")
 $fpTxtwelcomeDemo1:=Localized document path:C1105("TxtwelcomeDemo1.txt")
@@ -19,6 +18,11 @@ Case of
 		<>txtWelcome:=Document to text:C1236($fp)
 		<>txtWelcomeDemo1:=Document to text:C1236($fpTxtwelcomeDemo1)
 		<>txtWelcomeDemo2:=Document to text:C1236($fpTxtwelcomeDemo2)
+		
+		If (Records in table:C83([Table_1:1])=0)
+			$path:=Folder:C1567(fk resources folder:K87:11).file("data.4ie").platformPath
+			IMPORT DATA:C665($path; *)
+		End if 
 		
 		ALL RECORDS:C47([Table_1:1])
 		
