@@ -22,12 +22,12 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Scrap demo",
+					"title": ":xliff:MenuItemScrapDemo",
 					"method": "start_scrap_demo",
 					"startNewProcess": true
 				},
 				{
-					"title": "Picture explorer",
+					"title": ":xliff:MenuItemPictureExplorer",
 					"method": "start_field_demo",
 					"startNewProcess": true
 				},

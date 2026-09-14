@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Methods" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Msg_PictureWeight" resname="Msg_PictureWeight">
+        <source>The picture above weights : </source>
+        <target>この画像は結構なサイズを占有しています：</target>
+      </trans-unit>
+      <trans-unit id="Msg_WeightReason" resname="Msg_WeightReason">
+        <source>This weight is due to the number of formats contained in the C_PICTURE variable as described below: </source>
+        <target>ピクチャフィールドに何種類もの画像フォーマットが収納されているためです。</target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecListIntro" resname="Msg_CodecListIntro">
+        <source>Below is the list of codecs contained in the picture:</source>
+        <target>このピクチャに収納されている画像形式：</target>
+      </trans-unit>
+      <trans-unit id="Msg_SizeAfterExport" resname="Msg_SizeAfterExport">
+        <source>Size after export : </source>
+        <target>エクスポート後のサイズ：</target>
+      </trans-unit>
+      <trans-unit id="Msg_YouSaved" resname="Msg_YouSaved">
+        <source>You saved : </source>
+        <target>節約したサイズ：</target>
+      </trans-unit>
+      <trans-unit id="Msg_FormatDetail" resname="Msg_FormatDetail">
+        <source>Format detail: </source>
+        <target>画像形式：</target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecDeprecated" resname="Msg_CodecDeprecated">
+        <source>: is deprecated  </source>
+        <target>は廃止予定です。  </target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecSupported" resname="Msg_CodecSupported">
+        <source>: is supported </source>
+        <target>はサポートされています。 </target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecNotSupported" resname="Msg_CodecNotSupported">
+        <source>: is NOT supported</source>
+        <target>はサポートされていません。</target>
+      </trans-unit>
+      <trans-unit id="Msg_UnitKB" resname="Msg_UnitKB">
+        <source> Kb</source>
+        <target> Kb</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

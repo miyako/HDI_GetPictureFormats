@@ -3,14 +3,33 @@
 	font-size: 13px;
 }
 
-.default3 {
-	font-family: Lucida Grande;
-	font-size: 13px;
-}
-
 .HDI3 {
 	font-family: Lucida Grande;
 	font-size: 16px;
 	font-weight: bold;
+}
+
+/* Liquid Glass (macOS Tahoe+) needs a taller button to receive the rounded
+   translucent variant; classic macOS keeps the traditional 23px height.
+   Both the class-only and compound type+class selectors are defined
+   because 4D's CSS engine does not always match the compound selector. */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
 }
 

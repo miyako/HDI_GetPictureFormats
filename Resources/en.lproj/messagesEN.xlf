@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Methods" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Msg_PictureWeight" resname="Msg_PictureWeight">
+        <source>The picture above weights : </source>
+        <target>The picture above weights : </target>
+      </trans-unit>
+      <trans-unit id="Msg_WeightReason" resname="Msg_WeightReason">
+        <source>This weight is due to the number of formats contained in the C_PICTURE variable as described below: </source>
+        <target>This weight is due to the number of formats contained in the C_PICTURE variable as described below: </target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecListIntro" resname="Msg_CodecListIntro">
+        <source>Below is the list of codecs contained in the picture:</source>
+        <target>Below is the list of codecs contained in the picture:</target>
+      </trans-unit>
+      <trans-unit id="Msg_SizeAfterExport" resname="Msg_SizeAfterExport">
+        <source>Size after export : </source>
+        <target>Size after export : </target>
+      </trans-unit>
+      <trans-unit id="Msg_YouSaved" resname="Msg_YouSaved">
+        <source>You saved : </source>
+        <target>You saved : </target>
+      </trans-unit>
+      <trans-unit id="Msg_FormatDetail" resname="Msg_FormatDetail">
+        <source>Format detail: </source>
+        <target>Format detail: </target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecDeprecated" resname="Msg_CodecDeprecated">
+        <source>: is deprecated  </source>
+        <target>: is deprecated  </target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecSupported" resname="Msg_CodecSupported">
+        <source>: is supported </source>
+        <target>: is supported </target>
+      </trans-unit>
+      <trans-unit id="Msg_CodecNotSupported" resname="Msg_CodecNotSupported">
+        <source>: is NOT supported</source>
+        <target>: is NOT supported</target>
+      </trans-unit>
+      <trans-unit id="Msg_UnitKB" resname="Msg_UnitKB">
+        <source> Kb</source>
+        <target> Kb</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
