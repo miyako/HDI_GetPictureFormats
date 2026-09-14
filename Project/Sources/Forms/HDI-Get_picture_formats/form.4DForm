@@ -32,9 +32,9 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Demo 1",
-						"Demo 2"
+						":xliff:Detail_TabInfo",
+						":xliff:Detail_TabDemo1",
+						":xliff:Detail_TabDemo2"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -108,9 +108,9 @@
 					"top": 143,
 					"left": 548,
 					"width": 88,
-					"height": 21,
 					"text": ">",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
@@ -121,9 +121,9 @@
 					"top": 143,
 					"left": 369,
 					"width": 88,
-					"height": 21,
 					"text": "<",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
@@ -231,10 +231,10 @@
 					"top": 631,
 					"left": 300,
 					"width": 158,
-					"height": 20,
 					"dataSource": "ExportFormat_Button",
-					"text": "Export Selected Format",
+					"text": ":xliff:Detail_ExportButton",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/ExportFormat_Button.4dm",
 					"events": [
 						"onClick"
@@ -276,6 +276,12 @@
 					"scrollbarHorizontal": "hidden",
 					"scrollbarVertical": "hidden",
 					"borderStyle": "none",
+					"resizingMode": "legacy",
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
+					"textAlign": "automatic",
+					"verticalAlign": "automatic",
 					"events": [
 						"onLoad",
 						"onDataChange"
@@ -289,29 +295,27 @@
 							"maxWidth": 32000,
 							"resizable": false,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
-							"textAlign": "automatic",
-							"verticalAlign": "automatic",
+							"truncateMode": "none",
 							"events": [
 								"onClick",
 								"onDataChange"
 							],
 							"header": {
 								"name": "Entête1",
-								"text": "Format contained in the Picture",
+								"text": ":xliff:Detail_ColHeaderFormat",
 								"dataSource": "Entête1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Pied1",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							}
 						},
 						{
@@ -322,29 +326,27 @@
 							"maxWidth": 32000,
 							"resizable": false,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
-							"textAlign": "automatic",
-							"verticalAlign": "automatic",
+							"truncateMode": "none",
 							"events": [
 								"onClick",
 								"onDataChange"
 							],
 							"header": {
 								"name": "Entête2",
-								"text": "Size",
+								"text": ":xliff:Detail_ColHeaderSize",
 								"dataSource": "Entête2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Pied2",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							}
 						}
 					]

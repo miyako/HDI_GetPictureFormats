@@ -1,5 +1,5 @@
-
-C_TEXT:C284($fp; $fpTxtwelcomeDemo1; $fpTxtwelcomeDemo2)
+//%attributes = {"invisible":true}
+var $fp; $fpTxtwelcomeDemo1; $fpTxtwelcomeDemo2 : Text
 $fp:=Localized document path:C1105("txtWelcome.txt")
 $fpTxtwelcomeDemo1:=Localized document path:C1105("TxtwelcomeDemo1.txt")
 $fpTxtwelcomeDemo2:=Localized document path:C1105("TxtwelcomeDemo2.txt")
@@ -15,7 +15,7 @@ Case of
 		
 	: (Form event code:C388=On Load:K2:1)
 		//Get the multistyle texte from the ressources and display it.
-		C_TEXT:C284(<>txtWelcome; <>txtWelcomeDemo1; <>txtWelcomeDemo2; <>txtWelcomeDemo2)
+		var <>txtWelcome; <>txtWelcomeDemo1; <>txtWelcomeDemo2 : Text
 		<>txtWelcome:=Document to text:C1236($fp)
 		<>txtWelcomeDemo1:=Document to text:C1236($fpTxtwelcomeDemo1)
 		<>txtWelcomeDemo2:=Document to text:C1236($fpTxtwelcomeDemo2)

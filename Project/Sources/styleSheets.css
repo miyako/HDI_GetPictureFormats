@@ -1,0 +1,16 @@
+/* Cross-platform dark mode support.
+   Automatic color values ("automatic"/"automaticAlternate") are set directly
+   on form objects/listboxes in the .4DForm JSON; this stylesheet covers the
+   custom branded classes that need explicit light/dark variants. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-error-text {
+		stroke: #D80000;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-error-text {
+		stroke: #FF6B6B;
+	}
+}

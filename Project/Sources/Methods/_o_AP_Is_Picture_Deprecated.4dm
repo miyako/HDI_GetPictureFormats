@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 #DECLARE($pPicture : Pointer) : Integer
 
 ARRAY TEXT:C222($codecs; 0)

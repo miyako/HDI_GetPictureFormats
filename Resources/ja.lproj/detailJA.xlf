@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI-Get_picture_formats/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="Detail_TabInfo" resname="Detail_TabInfo">
+        <source>Info</source>
+        <target>情報</target>
+      </trans-unit>
+      <trans-unit id="Detail_TabDemo1" resname="Detail_TabDemo1">
+        <source>Demo 1</source>
+        <target>例題 1</target>
+      </trans-unit>
+      <trans-unit id="Detail_TabDemo2" resname="Detail_TabDemo2">
+        <source>Demo 2</source>
+        <target>例題 2</target>
+      </trans-unit>
+      <trans-unit id="Detail_ExportButton" resname="Detail_ExportButton">
+        <source>Export Selected Format</source>
+        <target>この形式でエクスポートする</target>
+      </trans-unit>
+      <trans-unit id="Detail_ColHeaderFormat" resname="Detail_ColHeaderFormat">
+        <source>Format contained in the Picture</source>
+        <target>ピクチャに含まれる形式</target>
+      </trans-unit>
+      <trans-unit id="Detail_ColHeaderSize" resname="Detail_ColHeaderSize">
+        <source>Size</source>
+        <target>サイズ</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

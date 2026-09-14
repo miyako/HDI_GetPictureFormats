@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/splashScreen/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Splash_Info" resname="Splash_Info">
+        <source>How Do I...&#x0D;&#x0D;… get the list of the formats that are contained in a C_PICTURE?</source>
+        <target>How Do I...&#x0D;&#x0D;… get the list of the formats that are contained in a C_PICTURE?</target>
+      </trans-unit>
+      <trans-unit id="Splash_BtnDemo" resname="Splash_BtnDemo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="Splash_BtnClose" resname="Splash_BtnClose">
+        <source>Close</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="Splash_TxtSorry" resname="Splash_TxtSorry">
+        <source>Sorry, this “How do I” (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
+        <target>Sorry, this “How do I” (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</target>
+      </trans-unit>
+      <trans-unit id="Splash_TxtSorry1" resname="Splash_TxtSorry1">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+      </trans-unit>
+      <trans-unit id="Splash_TxtVersion" resname="Splash_TxtVersion">
+        <source>4D v16 and above</source>
+        <target>4D v16 and above</target>
+      </trans-unit>
+      <trans-unit id="Splash_TxtPlugin" resname="Splash_TxtPlugin">
+        <source>Sorry, this HDI requires that the 4D Pack plugin is installed.</source>
+        <target>Sorry, this HDI requires that the 4D Pack plugin is installed.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

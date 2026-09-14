@@ -42,20 +42,21 @@
 					"height": 95,
 					"class": "HDI3",
 					"fontWeight": "bold",
-					"text": "How Do I...\r\r… get the list of the formats that are contained in a C_PICTURE?"
+					"stroke": "automatic",
+					"text": ":xliff:Splash_Info"
 				},
 				"BtnDemo": {
 					"type": "button",
 					"top": 284,
 					"left": 190,
 					"width": 90,
-					"height": 20,
 					"dataSource": "Demo",
 					"action": "accept",
-					"text": "Demo",
-					"class": "default3",
+					"text": ":xliff:Splash_BtnDemo",
+					"class": "default",
 					"focusable": false,
 					"defaultButton": true,
+					"method": "ObjectMethods/BtnDemo.4dm",
 					"events": [
 						"onClick"
 					]
@@ -70,7 +71,8 @@
 					"class": "HDI3",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Sorry, this “How do I” (HDI) \rexample must be used with\ra newer version of 4D\r(v16 and above)."
+					"stroke": "automatic",
+					"text": ":xliff:Splash_TxtSorry"
 				},
 				"TxtSorry1": {
 					"type": "text",
@@ -79,11 +81,11 @@
 					"width": 260,
 					"height": 65,
 					"visibility": "hidden",
-					"stroke": "#D80000",
+					"class": "hdi-error-text",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:Splash_TxtSorry1"
 				},
 				"Picture3": {
 					"type": "picture",
@@ -102,7 +104,8 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": "4D v16 and above"
+					"stroke": "automatic",
+					"text": ":xliff:Splash_TxtVersion"
 				},
 				"TxtPlugin": {
 					"type": "text",
@@ -114,7 +117,8 @@
 					"class": "HDI3",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Sorry, this HDI requires that the 4D Pack plugin is installed."
+					"stroke": "automatic",
+					"text": ":xliff:Splash_TxtPlugin"
 				}
 			}
 		}
