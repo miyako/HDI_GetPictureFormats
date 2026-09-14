@@ -21,7 +21,8 @@ Case of
 		
 		If (Records in table:C83([Table_1:1])=0)
 			$path:=Folder:C1567(fk resources folder:K87:11).file("data.4ie").platformPath
-			IMPORT DATA:C665($path; *)
+			$project:=""
+			IMPORT DATA:C665($path; $project)
 		End if 
 		
 		ALL RECORDS:C47([Table_1:1])
